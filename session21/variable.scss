@@ -1,0 +1,7 @@
+@mixin header {
+    color: red;
+    font-weight: bolder;
+}
+@function name-style($color){
+    @return $color
+}

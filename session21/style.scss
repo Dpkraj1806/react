@@ -1,0 +1,9 @@
+@import "./variable.scss"
+
+.h{
+    @include header;
+    color: blue;
+}
+#name{
+    color:name-style(red)
+}
